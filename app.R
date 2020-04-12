@@ -15,7 +15,7 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
    callModule(ReseptihakuServer, "Reseptihaku")
-   callModule(UusiReseptiServer,"UusiResepti")
+   callModule(UusiReseptiServer, "UusiResepti")
 }
 
 # Run the application 
